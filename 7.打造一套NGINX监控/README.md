@@ -271,27 +271,27 @@ access_log off;
 
 #### 3.1 登录grafana
 
-![IMG_1](./images/IMG_1.png)
+![](https://read-1252195440.cos.ap-guangzhou.myqcloud.com/7.打造一套NGINX监控/IMG_1.png)
 
 默认账号密码是admin/admin，登录后记得修改密码
 
 #### 3.1 添加数据源
 
-![IMG_2](./images/IMG_2.png)
+![](https://read-1252195440.cos.ap-guangzhou.myqcloud.com/7.打造一套NGINX监控/IMG_2.png)
 
 点击添加数据源，选择Loki
 
-![IMG_3](./images/IMG_3.png)
+![](https://read-1252195440.cos.ap-guangzhou.myqcloud.com/7.打造一套NGINX监控/IMG_3.PNG)
 
 URL输入http://loki:3100，点击保存和测试，出现'Data source connected and labels found'的提示就OK了
 
 #### 3.1 添加Dashboard
 
-![IMG_4](./images/IMG_4.png)
+![](https://read-1252195440.cos.ap-guangzhou.myqcloud.com/7.打造一套NGINX监控/IMG_4.png)
 
 点击import，输入12559，再导入，这是别人制作好的现成的模板，你也可以自己制作属于自己的模板，或者去grafana搜索模板，[grafana dashboards](https://grafana.com/grafana/dashboards/)
 
-![IMG_5](./images/IMG_5.png)
+![](https://read-1252195440.cos.ap-guangzhou.myqcloud.com/7.打造一套NGINX监控/IMG_5.png)
 
 现在大功告成！
 
